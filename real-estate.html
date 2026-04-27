@@ -1,0 +1,537 @@
+<!doctype html>
+<html lang="sk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Creative studio so zameraním na 3D vizualizácie interiérov a exteriérov."
+    />
+
+    <title>Nehnuteľnosti</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container header-inner">
+        <a href="/" class="logo">
+          <img src="assets/images/stud4.png"class="logo-img" />
+          <span class="logo-text">
+            <span class="logo-on">Web</span><span class="logo-business">Stud</span>
+          </span>
+        </a>
+
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="index.html#about">O nas </a>
+          <div class="nav-item has-submenu">
+            <a href="#services" class="submenu-toggle">
+              Services <span class="arrow"></span>
+            </a>
+            <ul class="submenu">
+              <li><a href="web.html">Webové stránky</a></li>
+              <li><a href="video-production.html">Video Production</a></li>
+              <li><a href="visualization.html">Visualization</a></li>
+            </ul>
+          </div>
+
+          <div class="nav-item has-submenu">
+            <a href="#real-services" class="submenu-toggle">
+              Nehnuteľnosti <span class="arrow"></span>
+            </a>
+            <ul class="submenu">
+              <li><a href="#real-services">Naše služby</a></li>
+              <!-- <li><a href="#real-about">Prenájom</a></li> -->
+              <!-- <li><a href="#real-services">Video prehliadky</a></li> -->
+              <!-- <li><a href="#real-services">3D Vizualizácie</a></li>  -->
+            </ul>
+          </div>
+
+          <a href="#footer">Kontakt</a>
+
+          <a href="contact.html#form" class="header-btn mobile-btn">
+            Kontaktujte nás
+          </a>
+        </nav>
+
+        <div class="header-contact">
+          <a href="contact.html#form" class="header-btn">Kontaktujte nás</a>
+        </div>
+
+        <div class="burger" id="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="real-hero" id="real-hero">
+      <div class="hero-gradient"></div>
+
+      <div class="container fade-in">
+        <h1>Predaj <span class="green">&</span> Prenájom</h1>
+
+        <p class="hero-subtitle">
+          Spájame marketing, video a vizualizácie pre rýchlejší a efektívnejší
+          predaj.
+        </p>
+
+        <a href="#" data-modal="projectModal" class="btn btn-primary fade-in">
+          Ponúknuť nehnuteľnosť <span class="arrow">→</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Section real-services -->
+    <section class="real-services fade-in" id="real-services">
+      <div class="container">
+        <h2 class="section-title fade-in">Naše služby</h2>
+        <p class="section-subtitle fade-in">
+          Všetko, čo potrebujete pre úspešný predaj a prenájom nehnuteľností
+        </p>
+
+        <div class="real-grid fade-in" id="Predaj">
+          <!-- PREDAJ -->
+          <div class="real-card">
+            <div class="real-card-top">
+              <h3>Predaj nehnuteľností</h3>
+            </div>
+
+            <div class="real-card-body">
+              <p>
+                Pomáhame predať vašu nehnuteľnosť rýchlejšie a za lepšiu cenu.
+              </p>
+
+              <ul class="real-list">
+                <li>Stanovenie ceny</li>
+                <li>Profesionálna prezentácia</li>
+                <li>Komunikácia s klientmi</li>
+              </ul>
+
+              <a href="#!" class="card-btn">Zistiť viac</a>
+            </div>
+          </div>
+
+          <!-- PRENAJOM -->
+          <div class="real-card">
+            <div class="real-card-top">
+              <h3>Prenájom</h3>
+            </div>
+
+            <div class="real-card-body">
+              <p>Nájdeme spoľahlivého nájomcu bez zbytočných starostí.</p>
+
+              <ul class="real-list">
+                <li>Výber nájomcov</li>
+                <li>Prehliadky</li>
+                <li>Zmluvy</li>
+              </ul>
+
+              <a href="#!" class="card-btn">Zistiť viac</a>
+            </div>
+          </div>
+
+          <!-- VIDEO -->
+          <div class="real-card">
+            <div class="real-card-top">
+              <h3>Video prehliadky</h3>
+            </div>
+
+            <div class="real-card-body">
+              <p>Video, ktoré ukáže atmosféru a zvýši záujem.</p>
+
+              <ul class="real-list">
+                <li>Filmové zábery</li>
+                <li>Drone videá</li>
+                <li>Sociálne siete</li>
+              </ul>
+
+              <a href="#!" class="card-btn">Zistiť viac</a>
+            </div>
+          </div>
+
+          <!-- VIZ -->
+          <div class="real-card">
+            <div class="real-card-top">
+              <h3>3D Vizualizácie</h3>
+            </div>
+
+            <div class="real-card-body">
+              <p>Ukážte potenciál priestoru ešte pred realizáciou.</p>
+
+              <ul class="real-list">
+                <li>3D interiéry</li>
+                <li>Exteriéry</li>
+                <li>Developerské projekty</li>
+              </ul>
+
+              <a href="#!" class="card-btn">Zistiť viac</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section real-about -->
+     <section class="real-about fade-in">
+      <div class="container real-about-container">
+        <h2 class="section-title">Predávajte rýchlejšie a výhodnejšie</h2>
+        <p class="section-subtitle real-subtitle fade-in">
+          Moderná prezentácia nehnuteľnosti zvýši zaujímavosť a hodnotu ponuky.
+        </p>
+
+        <div class="real-about-content">
+          <div class="real-text fade-in">
+            <p>
+              Pomáhame majiteľom, developerom a realitným kanceláriám predať
+              nehnuteľnosti efektívnejšie a bez zbytočných prieťahov.
+            </p>
+
+            <p>
+              Vďaka videu, vizualizáciám a premyslenému marketingu zvyšujeme
+              atraktivitu ponuky a urýchľujeme celý proces predaja.
+            </p>
+
+            <ul class="real-benefits">
+              <li>Profesionálna prezentácia</li>
+              <li>Video prehliadky</li>
+              <li>3D vizualizácie</li>
+              <li>Marketing a inzercia</li>
+            </ul>
+          </div>
+
+          <div class="slider-wrapper">
+            <div class="img-container">
+              <div class="box">
+                <img src="/assets/images/realty/r1.jpg" alt="" />
+              </div>
+              <div class="box">
+                <img src="/assets/images/realty/r2.jpg" alt="" />
+              </div>
+              <div class="box">
+                <img src="/assets/images/realty/r3.jpg" alt="" />
+              </div>
+              <div class="box">
+                <img src="/assets/images/realty/r4.jpg" alt="" />
+              </div>
+              <div class="box">
+                <img src="/assets/images/realty/r5.jpg" alt="" />
+              </div>
+              <div class="box">
+                <img src="/assets/images/realty/r6.jpg" alt="" />
+              </div>
+              <div class="box">
+                <img src="/assets/images/realty/r7.jpg" alt="" />
+              </div>
+              <div class="box">
+                <img src="/assets/images/realty/r8.jpg" alt="" />
+              </div>
+            </div>
+
+           <div class="slider-nav">
+              <button class="nav-slider prev" >
+                 <i class="fa-solid fa-angle-left"></i>
+              </button>
+              <button class="nav-slider next">
+               <i class="fa-solid fa-angle-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <!-- Section real-experts -->
+    <section class="real-experts fade-in">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title fade-in">Ako vám pomôžeme</h2>
+          <p class="section-subtitle fade-in">
+            Efektívny predaj nehnuteľnosti vďaka správnej stratégii a
+            prezentácii
+          </p>
+        </div>
+
+        <div class="real-steps">
+          <div class="real-step step-blue">
+            <div class="real-icon">
+              <i class="fa-solid fa-chart-line fa-fw"></i>
+            </div>
+            <h3>Analýza & stratégia</h3>
+            <p>Nastavíme správnu cenu a spôsob predaja.</p>
+          </div>
+
+          <div class="real-step step-purple">
+            <div class="real-icon">
+              <i class="fa-solid fa-camera-retro fa-fw"></i>
+            </div>
+            <h3>Prezentácia</h3>
+            <p>Video, vizualizácie a obsah, ktorý zaujme.</p>
+          </div>
+
+          <div class="real-step step-orange">
+            <div class="real-icon">
+              <i class="fa-solid fa-bullhorn fa-fw"></i>
+            </div>
+            <h3>Marketing</h3>
+            <p>Dostaneme vašu ponuku k správnym ľuďom.</p>
+          </div>
+
+          <div class="real-step step-red">
+            <div class="real-icon"><i class="fa-solid fa-key fa-fw"></i></div>
+            <h3>Predaj / prenájom</h3>
+            <p>Komunikácia, obhliadky a uzavretie obchodu.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Fag -->
+    <section class="faq fade-in">
+      <div class="container">
+        <h2 class="section-title fade-in">
+          Často kladené otázky
+          <span class="underline"></span>
+        </h2>
+        <p class="section-subtitle fade-in">
+          Rýchle odpovede na vaše otázky ohľadom našich služieb.
+        </p>
+
+        <div class="faq-wrapper">
+          <div class="faq-item fade-in">
+            <button class="faq-question">
+              <span class="faq-left">
+                <span class="faq-dot"></span>
+                Koľko stojí predaj nehnuteľnosti?
+              </span>
+              <span class="faq-arrow"></span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Cena závisí od rozsahu služieb. Väčšinou platíte až po úspešnom
+                predaji.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item fade-in">
+            <button class="faq-question">
+              <span class="faq-left">
+                <span class="faq-dot"></span>
+                Musím platiť niečo dopredu?
+              </span>
+              <span class="faq-arrow"></span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Vo väčšine prípadov nie. Niektoré služby môžu mať malý vstupný
+                poplatok.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item fade-in">
+            <button class="faq-question">
+              <span class="faq-left">
+                <span class="faq-dot"></span>
+                Ako dlho trvá predaj?
+              </span>
+              <span class="faq-arrow"></span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Závisí od trhu, ale profesionálna prezentácia výrazne zrýchľuje
+                proces.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item fade-in">
+            <button class="faq-question">
+              <span class="faq-left">
+                <span class="faq-dot"></span>
+                Čo všetko zabezpečíte?
+              </span>
+              <span class="faq-arrow"></span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Od stratégie a marketingu až po obhliadky a uzavretie predaja.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item fade-in">
+            <button class="faq-question">
+              <span class="faq-left">
+                <span class="faq-dot"></span>
+                Prečo video a vizualizácie?
+              </span>
+              <span class="faq-arrow"></span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Zvyšujú záujem, dôveru a pomáhajú predať rýchlejšie a
+                výhodnejšie.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="real-cta fade-in">
+      <div class="container">
+        <h2 class="section-titlefade-in">Máte ďalšie otázky?</h2>
+        <p>Radi vám všetko vysvetlíme na nezáväznej konzultácii.</p>
+
+        <a href="contact.html" class="btn btn-primary">Kontaktujte nás </a>
+      </div>
+    </section>
+
+    <!-- Footer  -->
+    <footer class="footer fade-in" id="footer">
+      <div class="container footer-container">
+        <div class="footer-col footer-brand">
+          <span class="logo-text">
+            <span class="logo-on">Web</span><span class="logo-business">Stud</span>
+          </span>
+          <p class="footer-text">
+            Moderné riešenia v oblasti marketingu, <br>webu a nehnuteľností.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Kontakt</h4>
+          <ul>
+            <li>Email: xxxxxxxxx@gmail.com</li>
+            <li>Tel: +421 XXX XXX XXX</li>
+            <li>Banská Bystrica</li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Sledujte nás</h4>
+
+          <div class="footer-socials">
+            <!-- Instagram -->
+            <a href="#">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M7 2C4.2 2 2 4.2 2 7v10c0 
+            2.8 2.2 5 5 5h10c2.8 0 5-2.2 
+            5-5V7c0-2.8-2.2-5-5-5H7zm10 
+            2a3 3 0 0 1 3 3v10a3 3 0 0 
+            1-3 3H7a3 3 0 0 1-3-3V7a3 3 
+            0 0 1 3-3h10zm-5 3a5 5 0 1 0 
+            0 10 5 5 0 0 0 0-10zm0 
+            2a3 3 0 1 1 0 6 3 3 0 0 
+            1 0-6zm4.8-2.8a1 1 0 1 
+            0 0 2 1 1 0 0 0 0-2z"
+                />
+              </svg>
+            </a>
+
+            <!-- YouTube -->
+            <a href="#">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M21.8 8s-.2-1.4-.8-2c-.8-.8-1.7-.8-2.1-.9C15.9 
+            5 12 5 12 5h0s-3.9 0-6.9.1c-.4 
+            0-1.3.1-2.1.9-.6.6-.8 
+            2-.8 2S2 9.6 2 11.2v1.6C2 
+            14.4 2.2 16 2.2 16s.2 1.4.8 
+            2c.8.8 1.9.8 2.4.9 1.7.2 
+            6.6.1 6.6.1s3.9 0 6.9-.1c.4 
+            0 1.3-.1 2.1-.9.6-.6.8-2 
+            .8-2s.2-1.6.2-3.2v-1.6C22 
+            9.6 21.8 8 21.8 8zM10 
+            14.5v-5l5 2.5-5 2.5z"
+                />
+              </svg>
+            </a>
+
+            <!-- WhatsApp -->
+            <a href="#">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M20 3.9A10 10 0 0 0 3.3 
+            17.4L2 22l4.7-1.2A10 10 0 1 0 
+            20 3.9zm-8 16.3a8.2 8.2 0 0 
+            1-4.2-1.1l-.3-.2-2.8.7.7-2.7-.2-.3a8.2 
+            8.2 0 1 1 6.8 3.6zm4.5-6.1c-.2-.1-1.4-.7-1.6-.8-.2-.1-.3-.1-.4.1-.1.2-.5.8-.6 
+            1-.1.2-.2.2-.4.1-1.1-.5-1.9-1.1-2.6-2.2-.2-.2 
+            0-.3.1-.4.1-.1.2-.3.4-.5.1-.2.2-.3.3-.5.1-.2 
+            0-.3 0-.4 0-.1-.4-1-.6-1.4-.2-.4-.3-.3-.4-.3h-.4c-.1 
+            0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.3c.1.2 
+            1.6 2.5 4 3.4.6.2 1 .3 1.3.4.6.2 1.1.1 
+            1.5.1.5-.1 1.4-.6 1.6-1.1.2-.5.2-1 
+            .2-1.1-.1-.1-.2-.1-.4-.2z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">© 2026 WebVideo. Všetky práva vyhradené.</div>
+    </footer>
+
+    <!-- Modal nehnuteľnosť -->
+    <div class="modal" id="projectModal">
+      <div class="modal-overlay"></div>
+
+      <div class="modal-content">
+        <button class="modal-close">&times;</button>
+
+        <h2>Ponúknuť nehnuteľnosť</h2>
+        <p class="modal-subtitle">
+          Vyplňte formulár a ozveme sa vám čo najskôr.
+        </p>
+
+        <form class="modal-form">
+          <input type="text" placeholder="Meno" required />
+          <input type="email" placeholder="Email" required />
+          <input type="tel" placeholder="Telefón" />
+
+          <select>
+            <option>Typ nehnuteľnosti</option>
+            <option>Byt</option>
+            <option>Dom</option>
+            <option>Komerčný priestor</option>
+          </select>
+
+          <textarea placeholder="Krátky popis nehnuteľnosti"></textarea>
+
+          <button type="submit" class="btn btn-primary">Odoslať dopyt</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- <a href="#" class="cookie-fixed-button">
+      <img src="assets/images/cook-fot.png" alt="Cookie Settings" />
+    </a> -->
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
