@@ -152,7 +152,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-
 // Modal nehnuteľnosť 
 
 const openBtns = document.querySelectorAll('[data-modal]');
@@ -177,7 +176,6 @@ modals.forEach(modal => {
     modal.classList.remove('active');
   });
 });
-
 
 
 // SLIDER REALTY
