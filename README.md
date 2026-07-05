@@ -40,7 +40,7 @@ The project was designed with an emphasis on clean design, logical structure, an
 
 - Netlify: https://web-stud.netlify.app/
 
-- GitHub Pages: https://liviiasolo.github.io/web-stud-pro/
+- GitHub Pages: https://liviiasolo.github.io/web-stud/
 
 
 ## Screenshots:
